@@ -20,9 +20,11 @@ export default function Navbar(props) {
 
  
 Navbar.propTypes = {
-    title : PropTypes.string 
+    title : PropTypes.string,
+    navBar: PropTypes.bool.isRequired
 }
 
 Navbar.defaultProps = {
-    title : "My Todo App"
+    title : "My Todo App",
+    navBar: true
 }
