@@ -1,14 +1,13 @@
 import './App.css';
+import Navbar from './MyComponents/Navbar';
 
 function App() {
-  
+
 
 
   return (
     <>
-      <center>
-        <h1 className='bg-danger text-white'> Heloo World </h1>
-      </center>
+      <Navbar/>
     </>
   );
 }
