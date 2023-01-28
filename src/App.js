@@ -6,7 +6,7 @@ import TodoList from './MyComponents/TodoList';
 function App() {
   return (
     <>
-      <Navbar title="Todo App" navBar={true}/>
+      <Navbar title="Todo App " navBar={true}/>
       <TodoList/>
       <Footer/>
     </>
